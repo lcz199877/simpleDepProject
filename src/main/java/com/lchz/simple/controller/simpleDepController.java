@@ -19,4 +19,10 @@ public class simpleDepController {
         log.info("into method simpleDepMethod!");
         return "this is simpleDepMethod return value !";
     }
+    @GetMapping("/simpleDepSecMethod")
+    public String simpleDepSecMethod(){
+        log.info("进入第二个方法!");
+        return "第二个方法返回值 !";
+    }
+    
 }
