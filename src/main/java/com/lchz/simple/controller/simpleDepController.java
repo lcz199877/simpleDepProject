@@ -22,6 +22,7 @@ public class simpleDepController {
     @GetMapping("/simpleDepSecMethod")
     public String simpleDepSecMethod(){
         log.info("进入第二个方法!");
+        log.info("推送到gitee——1!");
         return "第二个方法返回值 !";
     }
     
